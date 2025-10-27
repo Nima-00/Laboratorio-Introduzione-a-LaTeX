@@ -1,0 +1,140 @@
+\documentclass[a4paper,11pt]{article}
+
+% ----------------------------
+% Preambolo
+% ----------------------------
+
+\usepackage[utf8]{inputenc}     % Pacchetto tastiera
+\usepackage[italian]{babel}     % Pacchetto lingua
+
+\usepackage{amsmath}            % Pacchetti per la matematica
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{array}              % Pacchetti tabelle
+\usepackage{tabularx}
+\usepackage{hyperref}           % Pacchetto per iper-link
+\usepackage{graphicx}           % Pacchetto per le immagini
+\usepackage{xcolor}             % Pacchetto colori
+
+% Altri campi opzionali determinati dalla classe
+\title{Esercizi Settimana 2}
+\author{Nome Cognome}
+\date{XX-settembre-2025}
+
+
+\begin{document}
+
+    \maketitle
+
+    \section{Apici e pedici}
+    \subsection*{Energia cinetica rotazionale}
+    L'\textit{energia cinetica} di un oggetto in rotazione con velocità angolare $\omega$ può essere scritta come:
+    \[
+    K_{rot} = \frac{1}{2} I\omega^2
+    \]
+
+    \section{Tabelle}
+
+    \subsection*{Simboli utili}
+
+    \begin{tabular}{|m{1cm} m{2.5cm}|m{1cm} m{2.5cm}|m{1cm} m{2.5cm}|}\hline
+        $\alpha$ & \verb|\alpha|& $\beta$ &\verb|\beta|& $\gamma$ & \verb|\gamma|\\
+        $\lambda$ & \verb|\lambda|& $\mu$ &\verb|\mu|& $\pi$ & \verb|\pi|\\
+        $\leq$ & \verb|\leq|& $\geq$ &\verb|\geq|& $\neq$ & \verb|\neq|\\
+        $\sum$ & \verb|\sum|& $\prod$ &\verb|\prod|& $\int$ & \verb|\int|\\ \hline
+    \end{tabular}
+
+    \subsection*{Orario anno scolastico 2025-2026}
+    
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|c|c|c|c|c|c|}
+            \hline
+            Orario &Lunedì & Martedì & Mercoledì & Giovedì & Venerdì & Sabato \\
+            \hline
+            \hline
+            8.05 - 8.55 & ... & ... & ... & ... & ... & ... \\
+            8.05 - 8.55 & ... & ... & ... & ... & ... & ... \\
+            8.05 - 8.55 & ... & ... & ... & ... & ... & ... \\
+            8.05 - 8.55 & ... & ... & ... & ... & ... & ... \\
+            8.05 - 8.55 & ... & ... & ... & ... & ... & ... \\
+            8.05 - 8.55 &     & ... &     &     &     &     \\
+            \hline
+        \end{tabular}
+        \caption{Orario Classe ...}
+        \label{tab:orario}
+    \end{table}
+
+    \section{Ambienti Matematici}
+    \subsection*{Criteri di congruenza dei triangoli (CCT)}
+    \newtheorem*{cct1}{1° CCT}
+    \begin{cct1}
+        Due triangoli che hanno rispettivamente congruenti due lati e l'angolo tra di essi compreso sono congruenti.
+    \end{cct1}
+
+    \newtheorem*{cct2}{2° CCT}
+    \begin{cct2}
+        Due triangoli che hanno rispettivamente congruenti un lato ed i due angoli ad essi adiacenti sono congruenti.
+    \end{cct2}
+
+    \newtheorem*{cct3}{3° CCT}
+    \begin{cct3}
+        Due triangoli che hanno i tre lati rispettivamente congruenti sono congruenti.
+    \end{cct3}
+
+    \subsection*{Teoremi e dimostrazioni}
+    \newtheorem{teo}{Teorema}
+    \begin{teo}
+        I numeri primi sono infiniti.
+    \end{teo}
+    \begin{proof}
+        Supponiamo, per assurdo, che l'insieme dei numeri primi sia finito e sia $P=\{p_0, p_1, ...  , p_k\}$.\\
+        Consideriamo ora il numero
+        \[
+            m = \prod_{i=0}^k p_i +1
+        \]
+        Tale numero non è divisibile per alcun numero in $P$, dunque abbiamo due casi:
+        \begin{enumerate}
+            \item $m$ è primo, ma allora abbiamo trovato un primo che non sta in $P$.
+            \item $m$ è composto, ma allora esiste un primo $q$ che divide $m$. Tuttavia $q$ non può appartenere a $P$ poichè nessun elemento di $P$ divide $m$.
+        \end{enumerate}
+        In entrambi i casi si raggiunge un assurdo, perciò l'insieme dei numeri primi deve essere infinito.
+    \end{proof}
+
+    \section{Allineamento di espressioni}
+    \subsection*{Scomposizione di un polinomio}
+    \begin{align*}
+    x^3-3x^2-4x+12 &= x^2(x-3)-4(x-3)       \\
+                   &= (x^2-4)(x-3)          \\
+                   &= (x-2)(x+2)(x-3)       \\
+    \end{align*}
+
+    \section{Link}
+    \subsection*{Inserire un link all'interno del testo}
+
+    \textit{3Blue1Brown} è un famoso canale YouTube di divulgazione matematica che grazie alle sue animazioni riesce a dare un'intuizione visiva di formule e teoremi a prima vista molto astrusi.\\
+    Il link al canale è \href{https://www.3blue1brown.com/}{{\color{blue} 3blue1brown}}. [Worth a visit!]
+
+    \section{Riferimenti}
+    \subsection*{Creare riferimenti all'interno del testo}
+    La tabella \ref{tab:orario} mostra l'orario settimanale definitivo della classe ... per l'anno scolastico 2025/2026.
+
+    \section{Immagini}
+    \subsection*{Inserimento di due immagini}
+    \begin{figure}[h]
+        \centering
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[height=5cm]{immagini/pappagallo.jpg}
+            \caption{Pappagallo}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[height=5cm]{immagini/albatro.jpg}
+            \caption{Albatro}
+        \end{minipage}
+    \end{figure}
+
+\end{document}

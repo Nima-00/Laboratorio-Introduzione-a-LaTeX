@@ -1,0 +1,81 @@
+\documentclass[a4paper,11pt]{article}
+
+% ----------------------------
+% Preambolo
+% ----------------------------
+
+% Pacchetti per la lingua
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+% Pacchetti per la matematica
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+
+% Altri campi opzionali determinati dalla classe
+\title{Esercizi Settimana 1}
+\author{Nome Cognome}
+\date{XX-settembre-2025}
+
+
+\begin{document}
+
+    \maketitle
+
+    \section*{Esercizio 1: \textit{liste numerate}}
+    \textit{Ordine arrivo gara di corsa studentesca}
+    \begin{enumerate}
+        \item Giovanni
+        \item Franco
+        \item Paolo
+        \item Stefano
+    \end{enumerate}
+
+    \section*{Esercizio 2: \textit{liste non numerate}}
+    \underline{Lista della spesa}
+    \begin{itemize}
+        \item Pomodori
+        \item Latte
+        \item Detersivo
+    \end{itemize}
+
+    \section*{Esercizio 3: \textit{modalità inline}}
+    Disegnare il grafico della funzione $f(x)=x^2-1$ con $x\in[-10, 10]$ e determinare i punti di intersezioni con gli assi cartesiani.
+
+    \section*{Esercizio 4: \textit{modalità display}}
+    Disegnare il grafico della funzione 
+    \[
+    f(x)=x^2-1
+    \qquad x\in[-10, 10]
+    \]
+    e determinare i punti di intersezioni con gli assi cartesiani.
+
+    \section*{Esercizio 5: \textit{funzioni definite a tratti}}
+    \[
+    f(x) =
+    \begin{cases}
+        x^5-3 \quad x<10 \\
+        x^2-4 \quad 10\le x < 14 \\
+        x^3+1 \quad x\ge14
+    \end{cases}
+    \]
+
+    \section*{Esercizio 6: \textit{Formule di addizione e sottrazione}}
+    \begin{equation}
+    cos(\alpha \pm \beta) = cos(\alpha)\ cos(\beta) \mp sen(\alpha)\ sen(\beta)
+    \end{equation}
+    \begin{equation}
+    sen(\alpha \pm \beta) = sen(\alpha)\ cos(\beta) \pm cos(\alpha)\ sen(\beta)
+    \end{equation}
+    \begin{equation}
+    tan(\alpha \pm \beta) = \frac{tan(\alpha) \pm tan(\beta)}{1 \mp tan(\alpha)\ tan(\beta)}
+    \end{equation}
+
+    \section*{Esercizio 7: \textit{Formule di prostaferesi}}
+    \begin{equation} sen(\alpha) \pm sen(\beta) = 2sen\left(\frac{\alpha \pm \beta}{2}\right)cos\left(\frac{\alpha \mp \beta}{2}\right) \end{equation}
+    \begin{equation} cos(\alpha) + cos(\beta) = 2cos\left(\frac{\alpha + \beta}{2}\right)cos\left(\frac{\alpha - \beta}{2}\right) \end{equation}
+    \begin{equation} cos(\alpha) - cos(\beta) = -2sen\left(\frac{\alpha + \beta}{2}\right)sen\left(\frac{\alpha - \beta}{2}\right) \end{equation}
+
+\end{document}

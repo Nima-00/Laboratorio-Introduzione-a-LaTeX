@@ -6,7 +6,6 @@ I principali argomenti trattati sono:
 - Struttura e formattazione di un documento LaTeX
 - Espressioni matematiche
 - Tabelle e figure
-- Immagini
 - Ambienti matematici
 - Riferimenti bibliografici e citazioni
 

@@ -14,7 +14,6 @@ I principali argomenti trattati sono:
 ## Organizzazione repository
 
 ```
-.
 ├── LaTeX_teoria/                    # Materiale Teoria
 │   ├── .../
 │   └── .../

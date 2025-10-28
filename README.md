@@ -18,7 +18,11 @@ I principali argomenti trattati sono:
 │   ├── .../
 │   └── .../
 ├── LaTeX_esercizi/                  # Esercizi
-│   ├── .../
-│   └── .../
+│   ├── LaTeX_esercizio_0.tex
+│   ├── LaTeX_esercizio_0.pdf
+│   ├── LaTeX_esercizio_1.tex
+│   ├── LaTeX_esercizio_2.pdf
+│   ├── LaTeX_esercizio_2.tex
+│   └── LaTeX_esercizio_2.pdf
 └── README.md
 ```

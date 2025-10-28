@@ -10,3 +10,16 @@ I principali argomenti trattati sono:
 - Riferimenti bibliografici e citazioni
 
 **Piattaforma**: [Overleaf](https://www.overleaf.com/) - editor LaTeX online
+
+## Organizzazione repository
+
+```
+.
+├── LaTeX_teoria/                    # Materiale Teoria
+│   ├── .../
+│   └── .../
+├── LaTeX_esercizi/                  # Esercizi
+│   ├── .../
+│   └── .../
+└── README.md
+```

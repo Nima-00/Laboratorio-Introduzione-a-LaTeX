@@ -15,8 +15,11 @@ I principali argomenti trattati sono:
 
 ```
 ├── LaTeX_teoria/                    # Materiale Teoria
-│   ├── .../
-│   └── .../
+│   ├── LaTeX_presentazione.pdf
+│   ├── LaTeX_esempio_articolo.pdf
+│   ├── LaTeX_esempio_lettera.pdf
+│   └── LaTeX_chimica.pdf
+│ 
 ├── LaTeX_esercizi/                  # Esercizi
 │   ├── LaTeX_esercizio_0.tex
 │   ├── LaTeX_esercizio_0.pdf
@@ -24,5 +27,6 @@ I principali argomenti trattati sono:
 │   ├── LaTeX_esercizio_2.pdf
 │   ├── LaTeX_esercizio_2.tex
 │   └── LaTeX_esercizio_2.pdf
+|
 └── README.md
 ```

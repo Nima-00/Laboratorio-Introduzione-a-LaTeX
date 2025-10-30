@@ -27,6 +27,6 @@ I principali argomenti trattati sono:
 │   ├── LaTeX_esercizio_2.pdf
 │   ├── LaTeX_esercizio_2.tex
 │   └── LaTeX_esercizio_2.pdf
-|
+│ 
 └── README.md
 ```

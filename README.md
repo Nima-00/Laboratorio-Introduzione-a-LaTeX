@@ -16,8 +16,8 @@ I principali argomenti trattati sono:
 ```
 ├── LaTeX_teoria/                    # Materiale Teoria
 │   ├── LaTeX_presentazione.pdf
-│   ├── LaTeX_esempio_articolo.pdf
-│   ├── LaTeX_esempio_lettera.pdf
+│   ├── LaTeX_esempio_articolo.tex
+│   ├── LaTeX_esempio_lettera.tex
 │   └── LaTeX_chimica.pdf
 │ 
 ├── LaTeX_esercizi/                  # Esercizi

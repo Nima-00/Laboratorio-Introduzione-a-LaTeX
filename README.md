@@ -1,4 +1,4 @@
-# 📄 Laboratorio: Introduzione a LaTeX
+# 🍃 Laboratorio: Introduzione a LaTeX
 
 L'obiettivo di questo laboratorio è introdurre LaTeX, linguaggio di markup molto utilizzato per la stesura di documenti e articoli scientifici.
 
